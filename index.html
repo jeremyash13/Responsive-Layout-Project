@@ -12,7 +12,7 @@
 
 <body>
 
-  <header class="main-header" id="#top">
+  <header class="main-header card" id="#top">
     <h1 class="name">Jeremy Ashcraft</h1>
     <ul class="main-nav">
       <li>
@@ -28,37 +28,42 @@
         <a href="#">Contact</a>
       </h3></li>
     </ul>
-    <div class="banner">
+    <div class="card">
       <img src="images/responsive-layout-profile.png" alt="Profile photo" class="profile-img" />
       <p>
         Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!
       </p>
     </div>
   </header>
+
+
+
   <main>
-    <h3>Portfolio</h3>
-    <a href="#">
-      <div class="first row card">
-        <img src="images/portfolio-1.png" alt="Marketing Page" class="portfolio-img" />
-        <h2>Marketing Page</h2>
-        <p>
-          This project shows the front page of a marketing website meant for a specific business I'm interested in.
-        </p>
-      </div>
-    </a>
+      <h3>Portfolio</h3>
+
+
+      <a href="#">
+        <div class="card">
+          <img src="images/portfolio-1.png" alt="Marketing Page" class="portfolio-img" />
+          <h2>Marketing Page</h2>
+          <p>
+            This project shows the front page of a marketing website meant for a specific business I'm interested in.
+          </p>
+        </div>
+      </a>
+
+      <a href="#">
+        <div class="card">
+          <img src="images/portfolio-2.png" alt="Search Page" class="portfolio-img" />
+          <h2>Search Page</h2>
+          <p>
+            This project searches through a specific database to find information that the user is trying to look up.
+          </p>
+        </div>
+      </a>
 
     <a href="#">
-      <div class="first row card">
-        <img src="images/portfolio-2.png" alt="Search Page" class="portfolio-img" />
-        <h2>Search Page</h2>
-        <p>
-          This project searches through a specific database to find information that the user is trying to look up.
-        </p>
-      </div>
-    </a>
-
-    <a href="#">
-      <div class="first row card">
+      <div class="card">
         <img src="images/portfolio-3.png" alt="Travel App" class="portfolio-img" />
         <h2>Travel App</h2>
         <p>
@@ -68,7 +73,7 @@
     </a>
 
     <a href="#">
-      <div class="second row card">
+      <div class="card">
         <img src="images/portfolio-4.png" alt="Map of Favorite Spots" class="portfolio-img" />
         <h2>Map of Favorite Spots</h2>
         <p>
@@ -78,7 +83,7 @@
     </a>
 
     <a href="#">
-      <div class="second row card">
+      <div class="card">
         <img src="images/portfolio-5.png" alt="Photo Gallery" class="portfolio-img" />
         <h2>Photo Gallery</h2>
         <p>
@@ -88,7 +93,7 @@
     </a>
 
     <a href="#">
-      <div class="second row card">
+      <div class="card">
         <img src="images/portfolio-6.png" alt="Calculator" class="portfolio-img" />
         <h2>Calculator</h2>
         <p>
@@ -100,30 +105,34 @@
   </main>
 
   <aside>
-    <h3>Contact</h3>
-    <p>
-      If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!
-    </p>
-    <p>
-      Phone <span class="contact-footer">+1 (111) 555-1234</span>
-    </p>
-    <p>
-      Email <span class="contact-footer">email@yoursite.com</span>
-    </p>
+    <div class="card">
+      <h3>Contact</h3>
+      <p>
+        If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!
+      </p>
+      <p>
+        Phone <span class="contact-footer">+1 (111) 555-1234</span>
+      </p>
+      <p>
+        Email <span class="contact-footer">email@yoursite.com</span>
+      </p>
+    </div>
   </aside>
 
-  <footer class="">
-    <div>
+  <footer>
+    <div class="footer-wrapper">
       <h3 class="name">Jeremy Ashcraft</h3>
       <a href="#top" class="back-top"><h3>Back To Top</h3></a>
 
-      <ul class="footer-small">
+      <ul class="footer-full-nav">
 
+        <a href="#">
           <li>
-            <a href="#"><h3>
+            <h3>
           Home
-        </h3></a>
+        </h3>
           </li>
+        </a>
 
 
         <a href="#">
