@@ -12,21 +12,23 @@
 
 <body>
 
-  <header class="main-header card" id="#top">
+  <header class="main-header clearfix" id="#top">
     <h1 class="name">Jeremy Ashcraft</h1>
     <ul class="main-nav">
       <li>
         <h3>
         <a href="#">Home</a>
-      </h3></li>
+      </h3>
+      </li>
       <li>
         <h3>
-        <a href="#">Portfolio</a>
-      </h3></li>
+        <a href="#">Portfolio</a></h3>
+      </li>
       <li>
         <h3>
         <a href="#">Contact</a>
-      </h3></li>
+      </h3>
+      </li>
     </ul>
     <div class="card">
       <img src="images/responsive-layout-profile.png" alt="Profile photo" class="profile-img" />
@@ -39,73 +41,86 @@
 
 
   <main>
-      <h3>Portfolio</h3>
+    <h3>Portfolio</h3>
 
-
+    <div class="main-wrapper clearfix">
       <a href="#">
-        <div class="card">
-          <img src="images/portfolio-1.png" alt="Marketing Page" class="portfolio-img" />
-          <h2>Marketing Page</h2>
-          <p>
-            This project shows the front page of a marketing website meant for a specific business I'm interested in.
-          </p>
+        <div class="col">
+          <div class="main-card primary">
+            <img src="images/portfolio-1.png" alt="Marketing Page" class="portfolio-img" />
+            <h2>Marketing Page</h2>
+            <p>
+              This project shows the front page of a marketing website meant for a specific business I'm interested in.
+            </p>
+          </div>
         </div>
       </a>
 
       <a href="#">
-        <div class="card">
-          <img src="images/portfolio-2.png" alt="Search Page" class="portfolio-img" />
-          <h2>Search Page</h2>
-          <p>
-            This project searches through a specific database to find information that the user is trying to look up.
-          </p>
+        <div class="col">
+          <div class="main-card secondary">
+            <img src="images/portfolio-2.png" alt="Search Page" class="portfolio-img" />
+            <h2>Search Page</h2>
+            <p>
+              This project searches through a specific database to find information that the user is trying to look up.
+            </p>
+          </div>
         </div>
       </a>
 
-    <a href="#">
-      <div class="card">
-        <img src="images/portfolio-3.png" alt="Travel App" class="portfolio-img" />
-        <h2>Travel App</h2>
-        <p>
-          This project compares travel times based on different transportation methods and tells you the best one.
-        </p>
-      </div>
-    </a>
+      <a href="#">
+        <div class="col">
+          <div class="main-card primary">
+            <img src="images/portfolio-3.png" alt="Travel App" class="portfolio-img" />
+            <h2>Travel App</h2>
+            <p>
+              This project compares travel times based on different transportation methods and tells you the best one.
+            </p>
+          </div>
+        </div>
+      </a>
 
-    <a href="#">
-      <div class="card">
-        <img src="images/portfolio-4.png" alt="Map of Favorite Spots" class="portfolio-img" />
-        <h2>Map of Favorite Spots</h2>
-        <p>
-          This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.
-        </p>
-      </div>
-    </a>
+      <a href="#">
+        <div class="col">
+          <div class="main-card secondary">
+            <img src="images/portfolio-4.png" alt="Map of Favorite Spots" class="portfolio-img" />
+            <h2>Map of Favorite Spots</h2>
+            <p>
+              This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.
+            </p>
+          </div>
+        </div>
+      </a>
 
-    <a href="#">
-      <div class="card">
-        <img src="images/portfolio-5.png" alt="Photo Gallery" class="portfolio-img" />
-        <h2>Photo Gallery</h2>
-        <p>
-          This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.
-        </p>
-      </div>
-    </a>
+      <a href="#">
+        <div class="col">
+          <div class="main-card primary">
+            <img src="images/portfolio-5.png" alt="Photo Gallery" class="portfolio-img" />
+            <h2>Photo Gallery</h2>
+            <p>
+              This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.
+            </p>
+          </div>
+        </div>
+      </a>
 
-    <a href="#">
-      <div class="card">
-        <img src="images/portfolio-6.png" alt="Calculator" class="portfolio-img" />
-        <h2>Calculator</h2>
-        <p>
-          Someone can enter in the numbers they want, and press the big blue button and get the result.
-        </p>
-      </div>
-    </a>
-
+      <a href="#">
+        <div class="col">
+          <div class="main-card secondary">
+            <img src="images/portfolio-6.png" alt="Calculator" class="portfolio-img" />
+            <h2>Calculator</h2>
+            <p>
+              Someone can enter in the numbers they want, and press the big blue button and get the result.
+            </p>
+          </div>
+        </div>
+      </a>
+    </div>
   </main>
 
+
   <aside>
-    <div class="card">
+    <div class="contact-section">
       <h3>Contact</h3>
       <p>
         If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!
