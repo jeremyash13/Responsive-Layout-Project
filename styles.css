@@ -6,6 +6,7 @@
   border: solid 1px red;
   margin: 1em;
 } */
+
 /*=== Layout Containers ===*/
 
 body {
@@ -137,10 +138,20 @@ footer .name {
   width: 100%;
 }
 
+.flex-main-top,
+.flex-main-bot {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+
 .main-card {
   max-width: 400px;
-  margin: 20px auto 0;
-  /* border: solid 1px red; */
+}
+
+.main-wrapper a {
+  margin-top: 20px;
 }
 
 .card {
@@ -212,24 +223,28 @@ footer .name {
     margin: auto;
     text-align: left;
   }
-  .col {
-    width: 50%:;
-  }
-  .primary {
+  .flex-main-top {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
     float: left;
   }
-  .secondary {
+  .flex-main-bot {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
     float: right;
   }
   .main-card {
-    width: 50%;
     max-width: 100%;
-    padding-right: 1em;
-    padding-left: 1em;
   }
   .main-wrapper {
     max-width: 800px;
     margin: auto;
+  }
+  .main-wrapper a{
+    margin-left: 7px;
+    margin-right: 7px;
   }
   .back-top {
     display: none;
@@ -251,7 +266,8 @@ footer .name {
 
 @media (min-width: 1024px) {
     .flex-main-nav {
-      width: 90%;
+      /* width: 90%; */
+      max-width: 1348px;
       margin: auto;
       display: flex;
     }
@@ -260,6 +276,7 @@ footer .name {
     }
     .name {
       text-align: left;
+      padding-left: .75em;
     }
     .main-nav {
       margin: auto;
@@ -283,14 +300,18 @@ footer .name {
       width: 60%;
       max-width: none;
       padding-left: 0;
-      padding-right: 2em;
     }
-    .flex-main-top {
-      display: flex;
-      margin: auto;
-    }
+    .flex-main-top,
     .flex-main-bot {
       display: flex;
+      flex-direction: row;
+      float: none;
+      max-width: 100%;
+      width: 100%;
+    }
+
+    .footer-wrapper {
+      max-width: 1348px;
     }
 
 }
