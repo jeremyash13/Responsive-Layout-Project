@@ -8,7 +8,7 @@
 body {
   font-family: "Work Sans", sans-serif;
   color: gray;
-  background-color: rgba(0, 0, 0, .03);
+  background-color: rgba(0, 0, 0, .02);
   font-weight: lighter;
   line-height: 1.3;
   font-size: .9em;
@@ -138,10 +138,11 @@ footer .name {
   max-width: 400px;
   margin: 0 auto;
   margin-top: 20px;
+  /* border: solid 1px red; */
 }
 
 .card {
-  max-width: 260px;
+  max-width: 400px;
   margin: 0 auto;
   margin-top: 20px;
 }
@@ -230,6 +231,7 @@ footer .name {
   }
   .contact-section {
     max-width: 800px;
+    font-size: 1.2em;
   }
   footer li {
     float: left;
